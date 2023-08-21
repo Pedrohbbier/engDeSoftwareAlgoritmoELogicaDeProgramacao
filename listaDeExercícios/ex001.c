@@ -7,5 +7,5 @@ main(){
 	printf("Digite a altura:");
 	scanf("%f" , &altura);
 	area = base * altura / 2;
-	printf("Area do triângulo: %.2f" , area);
+	printf("Area do triangulo: %.2f" , area);
 }
