@@ -31,22 +31,22 @@ main(){
 			mediaIdadeCond2 += idade;
 		}
 		
-		if(corOlho == 'a' || corOlho == 'A' || corOlho == 'azul' || corOlho == 'Azul'){
+		if(corOlho == 'a' || corOlho == 'A' || corOlho == "azul" || corOlho == "Azul"){
 			cond3++;
 		}
 		
-		if((corCabelo == 'R' || corCabelo == 'r' || corCabelo == 'ruivo' || corCabelo == 'Ruivo') && (corOlho != 'a' || corOlho != 'A' || corOlho != 'Azul' || corOlho != 'azul' )  )
+		if((corCabelo == 'R' || corCabelo == 'r' || corCabelo == "ruivo" || corCabelo == "Ruivo") && (corOlho != 'a' || corOlho != 'A' || corOlho != "Azul" || corOlho != "azul" )  )
 		cond4++;
 		}
-	}
+		
 	printf("\nQuantidade de pessoas com idade superior a 50 anos e com peso inferior a 60 kg: %d" , cond1);
 	
 	mediaIdadeCond2 = mediaIdadeCond2 / 6;
 	printf("\nMedia das idades das pessoas com altura inferior a 1,50 m: %f" , mediaIdadeCond2);
 	
 	cond3 = (cond3/6) * 100;
-	printf("Porcentagem de pessoas com olhos azuis entre todas as pessoas analisadas: %f %%" , cond3);
+	printf("\nPorcentagem de pessoas com olhos azuis entre todas as pessoas analisadas: %f %%" , cond3);
 	
-	printf("Quantidade de pessoas ruivas e que não possuem olhos azuis: %d" , cond4);
+	printf("\nQuantidade de pessoas ruivas e que não possuem olhos azuis: %d" , cond4);
 	
 }
