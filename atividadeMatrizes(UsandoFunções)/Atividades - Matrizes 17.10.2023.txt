@@ -1,0 +1,20 @@
+Lista de Exercícios - Matrizes
+Data: 17/10/2023
+
+Resolver os seguintes algoritmos e apresentar as soluções aos colegas:
+
+1. Crie um programa que preencha todos os valores de uma matriz 2x2, e em seguida exiba todos os valores e a soma de todos os valores.
+
+2. Crie um programa que receba valores do usuário para preencher uma matriz, e em seguida, exiba a soma dos valores dela e a soma dos valores da primeira diagonal,ou seja, diagonal principal.
+
+3. Faça um programa em Linguagem C que leia uma matriz 6 x 6, conte e escreva quantos valores maiores que 10 ela possui.
+
+4. Faça um programa em Linguagem C que lê uma matriz de 3 x 3 elementos usando um comando for, multiplica cada elemento por 5 e imprime o resultado.
+
+5. Crie um programa que recebe uma matriz de inteiros positivos e substitui seus elementos de valor ímpar por -1 e os pares por +1.
+
+6. Some os elementos pares da matriz e escreva o resultado na tela.
+
+7. Capture do teclado valores para preenchimento de uma matriz M 3x3. Após a captura imprima a matriz criada e encontre a quantidade de números pares, a quantidade de números ímpares.
+
+8. Crie um programa que faça a soma de duas matrizes 3x3.
