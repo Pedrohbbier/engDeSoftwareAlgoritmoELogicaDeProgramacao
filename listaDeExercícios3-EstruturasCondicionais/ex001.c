@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(){
 	float MAIOR , INTER , MENOR ;
 	printf("Digite o primeiro numero: ");
 	scanf("%f" , &MAIOR);
