@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(){
 	float a , b , c;
 	
 	printf("Digite o valor de A: ");
@@ -13,11 +13,11 @@ main(){
 	if(a + b > c && a + c > b && b + c > a){
 		printf("Os valores podem formar um triangulo");
 		 if (a == b && b == c) {
-            printf("\n É um triângulo equilatero");
+            printf("\n ï¿½ um triï¿½ngulo equilatero");
         } else if (a == b || a == c || b == c) {
-            printf("\n É um triângulo isósceles");
+            printf("\n ï¿½ um triï¿½ngulo isï¿½sceles");
         } else {
-            printf("\n É um triângulo escaleno");
+            printf("\n ï¿½ um triï¿½ngulo escaleno");
         }
 	} else {
 		printf("Os valores nao podem formar um triangulo");

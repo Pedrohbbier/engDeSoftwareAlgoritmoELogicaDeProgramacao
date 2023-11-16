@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-main(){
+int main(){
 	float saldoMedio , credito;
 	
 	printf("Digite seu saldo medio: ");
 	scanf("%f" , &saldoMedio );
 	
 	if(saldoMedio <= 500 ){
-		printf("Você não recebe credito");
+		printf("Vocï¿½ nï¿½o recebe credito");
 	}
 	
 	if(saldoMedio > 500 && saldoMedio <= 1000){

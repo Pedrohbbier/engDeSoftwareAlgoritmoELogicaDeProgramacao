@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(){
 	float compra , lucro , venda;
 	
 	printf("Digite o valor da compra: ");

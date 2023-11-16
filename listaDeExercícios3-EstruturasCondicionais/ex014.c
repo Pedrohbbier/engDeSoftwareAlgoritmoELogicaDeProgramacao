@@ -2,7 +2,7 @@
 #include <math.h>
 
 
-main(){
+int main(){
 	float a , b , c;
 	float anguloA, anguloB, anguloC;
 	
@@ -20,16 +20,16 @@ main(){
         anguloB = acos((a * a + c * c - b * b) / (2 * a * c)) * (180.0 / M_PI);
         anguloC = 180.0 - anguloA - anguloB;
 
-        printf("Os ângulos internos do triângulo são:\n");
-        printf("\nÂngulo A: %.2f graus\n", anguloA);
-        printf("\nÂngulo B: %.2f graus\n", anguloB);
-        printf("\nÂngulo C: %.2f graus\n", anguloC);
+        printf("Os ï¿½ngulos internos do triï¿½ngulo sï¿½o:\n");
+        printf("\nï¿½ngulo A: %.2f graus\n", anguloA);
+        printf("\nï¿½ngulo B: %.2f graus\n", anguloB);
+        printf("\nï¿½ngulo C: %.2f graus\n", anguloC);
 
-        // Verifica se é um triângulo retângulo (um dos ângulos é 90 graus)
+        // Verifica se ï¿½ um triï¿½ngulo retï¿½ngulo (um dos ï¿½ngulos ï¿½ 90 graus)
         if (anguloA == 90.0 || anguloB == 90.0 || anguloC == 90.0) {
-            printf("\nÉ um Triângulo Retângulo.\n");
+            printf("\nï¿½ um Triï¿½ngulo Retï¿½ngulo.\n");
         } else {
-            printf("\nNão é um Triângulo Retângulo.\n");
+            printf("\nNï¿½o ï¿½ um Triï¿½ngulo Retï¿½ngulo.\n");
         }
 		
 	} else {

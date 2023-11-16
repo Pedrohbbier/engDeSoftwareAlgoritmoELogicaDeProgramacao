@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(){
 	int idade;
 	printf("Digite a sua idade: ");
 	scanf("%d" , &idade );

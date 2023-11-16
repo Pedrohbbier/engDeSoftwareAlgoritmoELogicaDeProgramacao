@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(){
 	float peso , altura , imc;
 	
 	printf("Digite seu peso: ");

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(){
 	float nota1 , nota2 , media;
 	
 	printf("Digite a nota 1: ");

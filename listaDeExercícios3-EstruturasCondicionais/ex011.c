@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(){
 	float a , b , c;
 	
 	printf("Digite o valor de A: ");

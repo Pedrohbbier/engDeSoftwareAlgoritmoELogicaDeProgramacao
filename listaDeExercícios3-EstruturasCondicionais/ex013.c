@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(){
 	float a , b , c;
 	
 	printf("Digite o valor de A: ");
@@ -18,18 +18,18 @@ main(){
 		
 		printf("Os valores podem formar um triangulo");
 		 if (a2 + b2 == c2 || a2 + c2 == b2 || b2 + c2 == a2) {
-            printf("\nÉ um Triângulo Retângulo.\n");
+            printf("\nï¿½ um Triï¿½ngulo Retï¿½ngulo.\n");
         }
-        // Verifica se é um triângulo obtusângulo
+        // Verifica se ï¿½ um triï¿½ngulo obtusï¿½ngulo
         else if (a2 + b2 < c2 || a2 + c2 < b2 || b2 + c2 < a2) {
-            printf("\nÉ um Triângulo Obtusângulo.\n");
+            printf("\nï¿½ um Triï¿½ngulo Obtusï¿½ngulo.\n");
         }
-        // Caso contrário, é um triângulo acutângulo
+        // Caso contrï¿½rio, ï¿½ um triï¿½ngulo acutï¿½ngulo
         else {
-            printf("\nÉ um Triângulo Acutângulo.\n");
+            printf("\nï¿½ um Triï¿½ngulo Acutï¿½ngulo.\n");
         }
         
 	} else {
-		printf("Não pode formar um triângulo");
+		printf("Nï¿½o pode formar um triï¿½ngulo");
 	}
 }

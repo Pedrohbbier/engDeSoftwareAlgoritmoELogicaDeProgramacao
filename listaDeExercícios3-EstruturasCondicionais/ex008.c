@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(){
 	int idade;
 	
 	printf("Digite a sua idade: ");
@@ -15,6 +15,6 @@ main(){
 	} else if (idade < 65){
 		printf("Voce pagara por mes 250 reais");
 	} else {
-		printf("Você pagara por mes 400 reais");
+		printf("Vocï¿½ pagara por mes 400 reais");
 	}
 }
