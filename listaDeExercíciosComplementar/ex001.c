@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-main(){
-	float num1 , num2 , res;
-	
-	printf("Digite o primeiro numero: ");
-	scanf("%f", &num1);
-	printf("Digite o segundo numero: ");
-	scanf("%f", &num2);
-	res = num1 + num2;
-	printf("Resultado da soma: %.2f" , res);
+int main(){
+    float n1, n2 , soma;
+    printf("Digite o primeiro numero: ");
+    scanf("%f" , &n1);
+    printf("Digite o segundo numero: ");
+    scanf("%f" , &n2);
+    soma = n1 + n2;
+    printf("Soma: %.2f" , soma);
 }

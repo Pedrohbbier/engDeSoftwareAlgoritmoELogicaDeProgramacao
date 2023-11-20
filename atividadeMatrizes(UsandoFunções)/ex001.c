@@ -2,7 +2,9 @@
 
 int linha , coluna;
 
-main(){
+int soma(int a[2][2]);
+
+int main(){
 	int matriz[2][2];
 	
 	
@@ -15,10 +17,8 @@ main(){
 	printf("Soma dos valores: %d" , soma(matriz));
 }
 
-int soma(int a[2][2]);
-
 int soma(int a[2][2]){
-	int somaGeral;
+	int somaGeral = 0;
 	for(linha = 0; linha < 2 ; linha++){
 		for(coluna = 0 ; coluna < 2 ; coluna++){
 			somaGeral += a[linha][coluna];

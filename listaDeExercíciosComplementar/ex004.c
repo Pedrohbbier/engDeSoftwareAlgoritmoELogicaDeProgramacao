@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-main(){
-	float valorCompra , valorPrestacao;
-	
-	printf("Digite o valor da compra: ");
-	scanf("%f" , &valorCompra);
-	
-	valorPrestacao = valorCompra / 5;
-	
-	printf("Cada prestacao custara: %.2f" , valorPrestacao);
+int main(){
+    float valor , prest;
+
+    printf("Digite o valor do produto: ");
+    scanf("%f" , &valor);
+
+    prest = valor / 5;
+
+    printf("Valor de cada prestacao: %.2f " , prest);
 }
