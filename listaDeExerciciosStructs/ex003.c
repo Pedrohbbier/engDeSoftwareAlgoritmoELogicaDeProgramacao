@@ -9,7 +9,7 @@ struct curso{
 	int notaTerceiraProva;
 } aluno[5];
 
-main(){
+int main(){
 	int i;
 	
 	for(i = 0; i < 5 ; i++){

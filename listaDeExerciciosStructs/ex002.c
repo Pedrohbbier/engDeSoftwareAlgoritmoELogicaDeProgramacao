@@ -8,7 +8,7 @@ struct dados{
 	
 } aluno[5] ;
 
-main(){
+int main(){
 	int i , x;
 	
 	for(i = 0 ; i < 5 ; i++){

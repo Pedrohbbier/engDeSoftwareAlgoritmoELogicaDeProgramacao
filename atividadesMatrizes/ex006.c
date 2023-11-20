@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(){
 	int j , k , somaPares , linha, coluna , qtdNum;
 	
 	printf("Digite a quantidade de linhas da matriz: ");

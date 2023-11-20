@@ -11,7 +11,7 @@ struct dados{
 	} enderecoPessoa ;
 } pessoa ;
 
-main(){
+int main(){
 	printf("Digite o nome da pessoa: ");
 	gets(pessoa.nome);
 	

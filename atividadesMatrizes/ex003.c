@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(){
 	int matriz[6][6] , linha , coluna ,maior = 0;
 	
 	printf("Digite os 36 numeros numeros da matriz:\n");

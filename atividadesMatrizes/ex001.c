@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(){
 	int matriz[2][2] , linha , coluna , soma;
 	
 	printf("Digite os 4 numeros da matriz:\n");

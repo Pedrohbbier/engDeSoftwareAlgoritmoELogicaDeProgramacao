@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(){
 	int matriz[3][3] , linha , coluna ,multiplicado[3][3];
 	
 	printf("Digite os nove numeros da matriz: \n");

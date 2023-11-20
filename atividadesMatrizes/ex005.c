@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(){
+int main(){
 	int linha , j , k , coluna , positivo , negativo , nroVetor;
 	
 	printf("Digite quantas linhas tem o vetor: ");
