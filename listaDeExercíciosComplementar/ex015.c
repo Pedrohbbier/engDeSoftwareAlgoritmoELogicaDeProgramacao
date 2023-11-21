@@ -1,32 +1,44 @@
 #include <stdio.h>
 
-int main(){
-    int n;
-    printf("Digite quantas pessoas voce quer ver se estao aptas ao servico militar obrigatorio:  ");
-    scanf( "%d" ,&n);
+int main() {
+    int pessoas, i;
+
+    printf("Informe o número de pessoas: ");
+    scanf("%d", &pessoas);
+
     char nome[50];
-    char sexo[20];
+    char sexo;
     int idade;
-    char estadoSaude[10];
-    int i;
+    char saude;
 
-    for(i = 1 ; i <= n ; i++ ){
-        printf("\nDigite o nome da pessoa %d: " , i);
-        scanf("%s" , &nome);
-        printf("\nDigite o sexo da pessoa %d (m = masculino) (f = feminino)  :" , i);
-        scanf("%s" , &sexo);
-        printf("\nDigite a idade da pessoa %d:" , i);
-        scanf("%d" , &idade);
-        printf("\nDigite o estado de saude da pessoa %d :(bom) ou (ruim)" , i);
-        scanf("%s" , &estadoSaude);
+    int aptos = 0;
+    int inaptos = 0;
 
-        if((sexo == "m" || sexo == "masculino") && (idade >= 18 && idade < 65 ) && (estadoSaude == "bom") ){
-            printf("\n%s aprovado para o servico militar obrigatorio" , nome);
+    for (i = 1; i <= pessoas; ++i) {
+        printf("\nInforme os dados da pessoa %d:\n", i);
+
+        printf("Nome: ");
+        scanf("%s", nome);
+
+        printf("Sexo (M/F): ");
+        scanf(" %c", &sexo);
+
+        printf("Idade: ");
+        scanf("%d", &idade);
+
+        printf("Condição de saúde (A para apto, I para inapto): ");
+        scanf(" %c", &saude);
+
+        if ((idade >= 18 && idade <= 30) && (sexo == 'M' || sexo == 'm') && (saude == 'A' || saude == 'a')) {
+            printf("Apto para o serviço militar obrigatório.\n");
+            aptos++;
         } else {
-            printf("\n%s reprovado para o servico militar obrigatorio" , nome);
+            printf("Inapto para o serviço militar obrigatório.\n");
+            inaptos++;
         }
-
     }
-    
+
+    printf("\nTotal de pessoas aptas: %d\n", aptos);
+    printf("Total de pessoas inaptas: %d\n", inaptos);
 
 }
